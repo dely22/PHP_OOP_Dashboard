@@ -27,7 +27,7 @@ $num = $stmt->rowCount();
 
 // set page header
 $page_title = "Read Products";
-include_once "includes/layout_header.php";
+include_once "includes/header.php";
 
 // contents will be here
 echo "<div class='right-button-margin'>
@@ -93,4 +93,4 @@ else {
 include_once 'includes/paging.php';
 
 // set page footer
-include_once "includes/layout_footer.php";
+include_once "includes/footer.php";

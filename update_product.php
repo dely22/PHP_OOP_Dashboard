@@ -24,7 +24,7 @@ $product->readOne();
 
 // set page header
 $page_title = "Update Product";
-include_once "includes/layout_header.php";
+include_once "includes/header.php";
 
 // contents will be here
 echo "<div class='right-button-margin'>
@@ -117,5 +117,5 @@ if ($_POST) {
     </table>
 </form>
 <?php
-include_once "includes/layout_footer.php";
+include_once "includes/footer.php";
 ?>

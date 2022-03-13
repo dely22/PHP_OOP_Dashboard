@@ -14,7 +14,7 @@ $category = new Category($db);
 
 // set page headers
 $page_title = "Create Product";
-include_once "includes/layout_header.php";
+include_once "includes/header.php";
 
 // contents will be here
 echo "<div class='right-button-margin'>
@@ -102,5 +102,5 @@ if ($_POST) {
 <?php
 
 // footer
-include_once "includes/layout_footer.php";
+include_once "includes/footer.php";
 ?>
